@@ -1,0 +1,86 @@
+body , html {
+    width: 100%;
+    height: 100%;
+}
+
+.component {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bar {
+    background-color: rgba(38, 38, 38, 1.00);
+    width: 3%;
+    border-right: solid 1px black;
+}
+
+.content_mai {
+    width: 97%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 6%;
+    background-color: rgba(30, 30, 30, 1.00);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 94%;
+}
+
+.chat-sidebar {
+    background-color: rgba(38, 38, 38, 1.00);
+    border-top: black solid 1px;
+    width: 40%;
+    height: 100%;
+}
+
+.chat {
+    background-color: rgba(30, 30, 30, 1.00);
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    background-color: rgba(38, 38, 38, 1.00);
+    width: 40%;
+    height: 100%;
+}
+
+.bar{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.imag_bar11 {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10%;
+    margin-bottom: 28em;
+}
+
+.imag_bar1{
+    margin-top: 60px;
+    max-width: 100%;
+}
+
+.imag_bar22{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 7%;
+    margin-top: 100%;
+}
+
+.imag_bar111{
+    margin-top: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
