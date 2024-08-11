@@ -17,13 +17,6 @@ main {
     height: 100vh;
 }
 
-
-.profile {
-    background-color: rgba(38, 38, 38, 1.00);
-    width: 40%;
-    height: 100%;
-}
-
 .imag_bar_top, .imag_bar_bottom {
     display: flex;
     padding: 1em;
@@ -63,6 +56,18 @@ header {
     justify-content: space-between;
     padding: 1em;
     align-items: center;
+    align-self: flex-start;
+}
+
+.header_and_bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.header_and_chat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .friend_profile {
@@ -104,14 +109,26 @@ header {
 }
 /*header*/
 
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
 .chat_sidebar {
     background-color: rgba(38, 38, 38, 1.00);
     width: 40%;
-    height: 100%;
+    height: 100vh;
 }
 
 .chat_bar {
     background-color: rgba(30, 30, 30, 1.00);
     width: 100%;
+    height: 100vh;
+}
+
+.profile {
+    display: none;
+    background-color: rgba(38, 38, 38, 1.00);
     height: 100%;
 }
